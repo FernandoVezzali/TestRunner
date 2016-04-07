@@ -1,0 +1,124 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TestRunner.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MaxCoverage" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Ergo.ExpertBanker.sln|0&lt;/string&gt;
+  &lt;string&gt;Ergo.ExpertBanker.Infrastructure.sln|0&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="TestPattern" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\b(test)|(IntegrationTsts)\b</Value>
+    </Setting>
+    <Setting Name="SkipTestProjects" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Ergo.ExpertBanker.Documents.Tests|Ergo.ExpertBanker.Comments.Tests|Ergo.ExpertBanker.Admin.Tests|Ergo.ExpertBanker.Activity.Tests</Value>
+    </Setting>
+    <Setting Name="SmtpServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">smtp.office365.com</Value>
+    </Setting>
+    <Setting Name="SmtpUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">tfsnotifications@fenergo.com</Value>
+    </Setting>
+    <Setting Name="SmtpPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="SmtpFrom" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">tfsnotifications@fenergo.com</Value>
+    </Setting>
+    <Setting Name="SmtpSsl" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SmtpPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Fenergo.1234</Value>
+    </Setting>
+    <Setting Name="MsBuildConfiguration" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Debug</Value>
+    </Setting>
+    <Setting Name="TfsTeamProjectCollection" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://fen-tfs.fenergo.com:8080/tfs/product</Value>
+    </Setting>
+    <Setting Name="VsTestArguments" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/InIsolation /EnableCodeCoverage /UseVsixExtensions:true /Logger:trx "/Logger:TfsPublisher;Collection=http://fen-tfs.fenergo.com:8080/tfs/product;TeamProject={0};BuildName={1};{2}"</Value>
+    </Setting>
+    <Setting Name="ProcessTimeout" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">7200000</Value>
+    </Setting>
+    <Setting Name="TrxResultSummaryXpath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/x:TestRun/x:ResultSummary[@outcome='Failed']</Value>
+    </Setting>
+    <Setting Name="VsTestPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe</Value>
+    </Setting>
+    <Setting Name="CodeCoveragePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Program Files (x86)\Microsoft Visual Studio 11.0\Team Tools\Dynamic Code Coverage Tools\CodeCoverage.exe</Value>
+    </Setting>
+    <Setting Name="TestResultsFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\TestRunner\TestResults</Value>
+    </Setting>
+    <Setting Name="CoverageReportFilters" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">-*test*;-*IntegrationTsts*</Value>
+    </Setting>
+    <Setting Name="BuildDefinition" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">QA28_Nightly_Build</Value>
+    </Setting>
+    <Setting Name="TeamProject" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SS KYC</Value>
+    </Setting>
+    <Setting Name="Workspace" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FEN-LAP-053</Value>
+    </Setting>
+    <Setting Name="VsSolutionPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Work\dev-merges\Dev-Merges\Fenergo.Solution\Fenergo.Solution.SSGKYC.sln</Value>
+    </Setting>
+    <Setting Name="UnitTestDll" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Work\dev-merges\Dev-Merges\Fenergo.Solution\TestProjects\Fenergo.Domain.Solution.SSGKYC.Tests\bin\Debug\Fenergo.Domain.Solution.SSGKYC.Tests.dll</Value>
+    </Setting>
+    <Setting Name="IntegrationTestDll" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Work\dev-merges\Dev-Merges\Fenergo.Solution\TestProjects\Fenergo.Domain.Solution.SSGKYC.IntegrationTests\bin\Debug\Fenergo.Domain.Solution.SSGKYC.Integration.Tests.dll</Value>
+    </Setting>
+    <Setting Name="ConfigurationTestDll" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Work\dev-merges\Dev-Merges\Fenergo.Solution\TestProjects\Fenergo.Domain.Solution.SSGKYC.ConfigurationTests\bin\Debug\Fenergo.Domain.Solution.SSGKYC.Configuration.Tests.dll</Value>
+    </Setting>
+    <Setting Name="ServiceImplementationTestDll" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Work\dev-merges\Dev-Merges\Fenergo.Solution\Fenergo.ServiceImplementation.Solution.SSGKYC.Tests\bin\Debug\Fenergo.ServiceImplementation.Solution.SSGKYC.Tests.dll</Value>
+    </Setting>
+    <Setting Name="WorkingDirectory" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Work\dev-merges\Dev-Merges\Fenergo.Solution</Value>
+    </Setting>
+    <Setting Name="Compiler" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe</Value>
+    </Setting>
+    <Setting Name="OracleServiceName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OracleServiceFENERGO2</Value>
+    </Setting>
+    <Setting Name="BaseUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost/TestResults/</Value>
+    </Setting>
+    <Setting Name="ForceExecution" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ReportGeneratorVersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ReportGenerator.2.1.8.0</Value>
+    </Setting>
+    <Setting Name="LocalUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FVezzali</Value>
+    </Setting>
+    <Setting Name="DeployDatabase" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="UpdateLocalUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GetLatestAndCompile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TestCategory" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TestCategory=UnitTest|TestCategory=IntegrationTest</Value>
+    </Setting>
+    <Setting Name="SmtpTo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">fernando.vezzali@fenergo.com</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
