@@ -62,7 +62,8 @@
     <AssemblyOriginatorKeyFile>TestRunnerKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>fenergo.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>C133DC62466887EFBBCED57F1B77F02600A6D265</ManifestCertificateThumbprint>
@@ -206,7 +207,6 @@
     <None Include="lib\Microsoft.TeamFoundation.Build.Workflow.dll" />
     <None Include="lib\Microsoft.TeamFoundation.Client.dll" />
     <None Include="lib\Microsoft.TeamFoundation.VersionControl.Client.dll" />
-    <None Include="fenergo.ico" />
     <Content Include="lib\Microsoft.TeamFoundation.Build.Common.dll" />
     <Content Include="lib\Microsoft.Web.Administration.dll" />
     <Content Include="lib\Polly.2.2.2\net45\Polly.dll" />
